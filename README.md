@@ -34,7 +34,7 @@ If `spinnerVerbs` is missing, empty or the file can't be read, Claudian's own te
 
 ## How it works
 
-- A `MutationObserver` watches for `.claudian-thinking` elements.
+- A `MutationObserver` watches for `.claudian-thinking` elements, in the main window and in every popout window.
 - Only Claudian's built-in default texts (from Claudian v2.3.16) are replaced. Any other status Claudian shows is left alone.
 - `settings.json` is only re-read when its modification time changes.
 
